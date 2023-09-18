@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: var(--white);
+    height: 400px;
+    width: 560px;
+    border-radius: 8px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-container img{
+    height: 400px;
+    width: 270px;
+    margin-right: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text-container{
+    margin-left: 10px;
+}
+
+.text-container h2{
+    margin: 30px 50px 12px 0;
+    font-size: 12px;
+    font-weight:500;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-container h1{
+    font-weight: 700;   
+    font-family: 'Fraunces', serif;
+}
+
+.text-container p{
+    margin: 16px 0 5px 0;
+    font-size: 14px;
+    font-weight:400;
+    color: grey;
+    line-height: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+.value-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.value-container .value-bold {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+}
+
+.value-container .value{
+    margin-right: 80px;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.button-container{
+    margin-top: 20px;
+    height: 44px;
+    width: 240px;
+    background-color: var(--dark-cyan);
+    border-radius: 10px;
+    padding: 12px 0 2px 60px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-container:hover{
+    background-color: green;
+    transition: 2s;
+}
+
+.button-container a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight:600;
+    font-size: 16px;
+}
+
